@@ -718,7 +718,7 @@ function lunch()
 
     if ! check_product $product
     then
-        # if we can't find a product, try to grab it off the AospExtended GitHub
+        # if we can't find a product, try to grab it off the XziProject GitHub
         T=$(gettop)
         cd $T > /dev/null
         vendor/aosp/build/tools/roomservice.py $product
